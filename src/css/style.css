@@ -1,0 +1,70 @@
+.wrapper {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 2rem;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5rem;
+
+}
+
+.card>header{
+    height: 50%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.card header div {
+    width: 50%;
+}
+
+.card header .about {
+    color: var(--very-dark-magenta);
+}
+
+.card header .about>h1 {
+   padding: 0 15rem 1rem 0;
+   
+}
+
+.card header .about>p {
+    padding: 0 8rem 0 0;
+ }
+
+
+
+.card header .rate div {
+    display: flex;
+    width: fit-content;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    background: var(--light-grayish-magenta);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.card header .rate div>picture {
+    margin-right: 1rem;
+}
+
+.card header .rate>.report-guru {
+    margin-left: 1rem;
+}
+
+.card header .rate>.besttech {
+    margin-left: 3rem;
+}
+
+
+.card>footer {
+    height: 50%;
+    display: flex;
+}
+
