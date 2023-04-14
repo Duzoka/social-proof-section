@@ -9,7 +9,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: aqua;
     border-radius: 5px;
     padding: 5rem;
 
@@ -48,23 +47,85 @@
     background: var(--light-grayish-magenta);
     border-radius: 5px;
     align-items: center;
+    
 }
+
 
 .card header .rate div>picture {
-    margin-right: 1rem;
-}
-
-.card header .rate>.report-guru {
     margin-left: 1rem;
 }
 
+.card header .rate p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card header .rate> .reviews {
+    margin-left: 1rem;
+}
+
+
+
+.card header .rate>.report-guru {
+    margin-left: 2rem;
+
+}
+
 .card header .rate>.besttech {
-    margin-left: 3rem;
+    margin-left: 4rem;
+   
 }
 
 
 .card>footer {
     height: 50%;
     display: flex;
+    justify-content: space-around;
+    
+}
+
+.feedback1, .feedback2, .feedback3 {
+    width: fit-content;
+    background: var(--very-dark-magenta);
+    margin: 0 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    color: var(--white);
+   
+}
+
+
+
+.feedback1 {
+   margin-top: 1rem;
+   margin-bottom: 3rem;
+}
+
+.feedback2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feedback3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.user-section {
+    display: flex;
+    margin: 1rem;
+    justify-content: flex-start;
+}
+
+.user-section>img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+
+.verified {
+    color: var(--soft-pink);
 }
 
