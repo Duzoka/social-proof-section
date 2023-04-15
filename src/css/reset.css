@@ -12,8 +12,24 @@ body {
     font-size: 14px;
     font-family: 'League Spartan', sans-serif;
     min-height: 100vh;
-    background: var(--white);
 }
+
+.pattern-bottom, .pattern-top {
+    position: absolute;
+    z-index: -1;
+}
+
+.pattern-top {
+    top: 0;
+    left: 0;
+}
+
+.pattern-bottom {
+    bottom: 0;
+    right: 0;
+}
+
+
 
 :root {
     /* Primary color */

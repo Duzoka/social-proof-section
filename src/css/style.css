@@ -1,5 +1,5 @@
 .wrapper {
-    width: 80%;
+    width: 90%;
     height: 80%;
     display: flex;
     margin: 2rem;
@@ -34,7 +34,7 @@
 }
 
 .card header .about>p {
-    padding: 0 8rem 0 0;
+    padding: 0 6rem 0 0;
  }
 
 
@@ -89,7 +89,7 @@
     background: var(--very-dark-magenta);
     margin: 0 2rem;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem;
     color: var(--white);
    
 }
@@ -102,12 +102,12 @@
 }
 
 .feedback2 {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 .feedback3 {
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
