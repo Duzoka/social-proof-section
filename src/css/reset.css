@@ -15,7 +15,7 @@ body {
 }
 
 .pattern-bottom, .pattern-top {
-    position: absolute;
+    position: fixed;
     z-index: -1;
 }
 
