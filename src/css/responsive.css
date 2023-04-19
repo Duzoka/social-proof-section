@@ -1,4 +1,12 @@
-@media (max-width: 375px){
+@media (max-width: 690px){
+
+    header {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
 
 }
 
