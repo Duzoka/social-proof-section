@@ -1,12 +1,115 @@
+@media (max-width: 375px) {
+    .card {
+        padding: 0.5rem;
+    }
+
+    .card header .about h1 {
+        text-align: center;
+        padding: 0 0.5rem;
+        margin: 0 0 1rem;
+    
+    }
+
+    .card header .about p {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .card header .rate  {
+        align-items: center;
+    }
+
+    .card header .rate div {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .card header .rate> .reviews {
+        margin-left: 0;
+    }
+    
+    
+    
+    .card header .rate>.report-guru {
+        margin-left: 0;
+    
+    }
+    
+    .card header .rate>.besttech {
+        margin-left: 0;
+       
+    }
+
+    .card header .rate div>picture {
+        margin-bottom: 0.5rem;
+        
+    }
+
+    .feedback1, .feedback2, .feedback3 {
+        width: 100%;
+        margin: 0;
+        line-height: 1.2rem;
+    }
+
+    .feedback1 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+     }
+     
+     .feedback2 {
+         margin-top: 0;
+         margin-bottom: 0.5rem;
+     }
+     
+     .feedback3 {
+         margin-top: 0;
+         margin-bottom: 0.5rem;
+     }
+    
+}
+
+
 @media (max-width: 690px){
+
+    body {
+        overflow: scroll;
+    }
 
     header {
         flex-direction: column;
     }
 
+    .card header div {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
     footer {
         flex-direction: column;
     }
+
+    .card header .rate> .reviews {
+        margin-left: 0;
+    }
+    
+    
+    
+    .card header .rate>.report-guru {
+        margin-left: 0;
+    
+    }
+    
+    .card header .rate>.besttech {
+        margin-left: 0;
+       
+    }
+
+    .card header .rate div>picture {
+        margin-bottom: 0.5rem;
 
 }
 
