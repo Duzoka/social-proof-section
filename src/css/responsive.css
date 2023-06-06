@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 502px) {
     .card {
         padding: 0.5rem;
     }
@@ -72,7 +72,7 @@
 }
 
 
-@media (max-width: 690px){
+@media (max-width: 680px){
 
     body {
         overflow: scroll;
@@ -88,9 +88,23 @@
         padding: 0.5rem;
     }
 
+    .card header .about {
+        text-align: center;
+    }
+    .card header .about h1 {
+        padding: 0 0 0 0;
+        margin: 0 0 1rem;
+    }
+
+    .card header .about p {
+        padding: 0;
+    }
+
     footer {
         flex-direction: column;
     }
+
+ 
 
     .card header .rate> .reviews {
         margin-left: 0;
@@ -110,7 +124,24 @@
 
     .card header .rate div>picture {
         margin-bottom: 0.5rem;
+    }
 
+}
+
+@media ( max-width: 1001px) {
+
+.user-section {
+    margin: 0;
+}
+
+.user-section img {
+    height: 20%;
+    margin: 1rem 0.5rem;
+    }
+
+.user-section .tag {
+    margin: 1rem 0.5rem;
+}
 }
 
 @media (min-width: 1440px) {
