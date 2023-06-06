@@ -131,7 +131,7 @@
 @media ( max-width: 1001px) {
 
  .card header .about>h1 {
-    /* padding: 0 15rem 1rem 0; */
+    padding: 0;
     margin: 0 0 1rem;
 }
     
